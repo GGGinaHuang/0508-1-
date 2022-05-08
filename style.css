@@ -1,0 +1,67 @@
+@charset "utf-8";
+.box1 {
+    width: 150px;
+    height: 150px;
+    background-color: #E6F079;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: all 500ms ease-in-out 0s;
+    -o-transition: all 500ms ease-in-out 0s;
+    transition: all 500ms ease-in-out 0s;
+}
+.box1:hover{transform: translate(25px,25px)}
+.box2 {
+    width: 150px;
+    height: 150px;
+    background-color: #F2C588;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: all 500ms ease-in-out 0s;
+    -o-transition: all 500ms ease-in-out 0s;
+    transition: all 500ms ease-in-out 0s;
+}
+.box2:hover{transform: rotate(45deg)}
+.box3 {
+    background-color: #65E9EA;
+    width: 150px;
+    height: 150px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    -webkit-transition: all 500ms ease-in-out 0s;
+    -o-transition: all 500ms ease-in-out 0s;
+    transition: all 500ms ease-in-out 0s;
+}
+.box3:hover{
+    transform: scale(1.5,1.5);
+    -webkit-transform: scale(1.5,1.5);
+    -o-transform: scale(1.5,1.5);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+.box1:hover {
+    background-color: #FCA4A6;
+    -webkit-transform: translate(25px,25px);
+    -o-transform: translate(25px,25px);
+    font-size: 30px;
+}
+.box3:hover {
+    background-color: #F09696;
+}
+.box2:hover {
+    background-color: #F9B2B4;
+    font-size: 30px;
+}
